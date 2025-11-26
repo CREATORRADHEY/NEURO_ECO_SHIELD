@@ -1,34 +1,60 @@
-# Chatbot Dashboard
+# NeuroEcoShield & Chatbot Dashboard
 
-A Streamlit-based dashboard with integrated Gemini AI chatbot functionality.
+This repository contains Streamlit-based applications for Emotional Cybersecurity visualization and an AI-powered Chatbot.
 
-## Features
+## 🛡️ NeuroEcoShield
 
-- Interactive chatbot powered by Google's Gemini AI
-- Streamlit dashboard interface
-- Real-time conversation handling
+**NeuroEcoShield** is a dashboard designed to visualize the concept of "Emotional Cybersecurity" - a new defence against digital manipulation and cognitive hacking.
 
-## Files
+### Features
 
-- `chatbot.py` - Gemini AI chatbot implementation
-- `DASHBOARD.py` - Main Streamlit dashboard
-- `neuroecoshield.py` - Additional functionality
+- **The Threat**: Educational section on Cognitive Hacking and how attackers manipulate emotions.
+- **The Reality**: Analysis of technical, efficacy, and ethical hurdles in detecting emotional manipulation.
+- **How It Works**: Visual explanation of Real-Time Biometric Correlation.
+- **Live Simulation**: An interactive module to simulate user stress levels and "Phishing Attacks" to demonstrate how the system triggers alerts based on physiological stress correlation.
 
-## Setup
+### How to Run
 
-1. Install dependencies:
+```bash
+streamlit run neuroecoshield.py
+```
 
-   ```bash
-   pip install streamlit google-generativeai
-   ```
+---
 
-2. Configure your API key in Streamlit secrets
+## 🤖 Chatbot Dashboard
 
-3. Run the dashboard:
-   ```bash
-   streamlit run DASHBOARD.py
-   ```
+A Streamlit-based dashboard integrated with Google's Gemini AI for real-time conversational capabilities.
 
-## Usage
+### Features
 
-The chatbot can be accessed through the Streamlit dashboard interface and provides conversational AI capabilities using Google's Gemini model.
+- **Gemini AI Integration**: Powered by Google's Gemini 2.0 Flash model.
+- **Chat Interface**: Clean, chat-like interface for interacting with the AI.
+- **History**: Maintains session history for the conversation.
+
+### How to Run
+
+```bash
+streamlit run chatbot.py
+# OR
+streamlit run DASHBOARD.py
+```
+
+---
+
+## 🛠️ Installation
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/CREATORRADHEY/NEURO_ECO_SHIELD.git
+    cd NEURO_ECO_SHIELD
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    pip install streamlit google-generativeai pandas plotly
+    ```
+
+3.  **API Key Configuration:**
+    - For the Chatbot, ensure you have a valid Google Gemini API key configured in the script or environment variables.

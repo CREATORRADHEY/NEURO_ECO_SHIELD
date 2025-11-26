@@ -9,7 +9,7 @@ st.markdown("### Powered by Google Gemini AI")
 st.divider()
 
 
-key = "AIzaSyCE3kNpK_VQ-h6H57NkO4SzMfC7o6-rAd8"
+key = ""
 genai.configure(api_key=key)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
